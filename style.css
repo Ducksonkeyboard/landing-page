@@ -1,0 +1,144 @@
+*{
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* color */
+.white{
+    color: white;
+}
+
+.light-white{
+    color: #e5e7eb;
+}
+.grey{
+    color: rgb(75, 75, 75);
+}
+/* color */
+
+/* header */
+.header{
+    background-color: #1f2937;
+    padding: 20px 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-all{
+    width: 1030px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top .link{
+    display: flex;
+    gap: 24px;
+    font-size: 18px;    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* header */
+
+/* front-info */
+.front-info{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.front-info .textbox{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex: 0 1 auto;
+    
+}
+
+.textbox h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.textbox button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 6px 28px;
+    font-size: 18px;
+    width: fit-content;
+    border: none;
+}
+
+.front-info .image{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    flex: 0 1 auto;
+}
+/* front-info */
+
+/* info */
+
+.info{
+    padding: 20px 300px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info ul{
+    display: flex;
+    gap: 40px;
+}
+
+.info li{
+    width: 175px;
+}
+.info p{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+.info .image{
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 4px;
+    height: 175px;
+    width: 175px;
+}
+
+/* info */
+
+/* quote */
+.quote{
+    background-color: #e5e7eb;
+    padding: 100px 400px;
+}
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote h3{
+    font-weight: 900;
+}
+/* quote */
