@@ -55,6 +55,7 @@ ul{
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .front-info .textbox{
@@ -87,6 +88,7 @@ ul{
     justify-content: center;
     align-items: center;
     width: 500px;
+    height: 220px;
     flex: 0 1 auto;
 }
 /* front-info */
@@ -104,11 +106,15 @@ ul{
 .info h2{
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
 
 .info ul{
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .info li{
@@ -160,6 +166,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 .sign-up-box h3{
     font-weight: 900;
